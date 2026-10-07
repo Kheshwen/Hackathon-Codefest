@@ -1,1 +1,24 @@
-1
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Databases (keep the seeded one)
+*.db
+*.sqlite3
+!app/data/seed.db
+
+# Vercel
+.vercel/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
