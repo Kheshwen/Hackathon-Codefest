@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.models import CheckRequest, CheckResponse
 
-app = FastAPI(title="SemakDulu")
+app = FastAPI(title="HomelessPeople") //change the title later
 
 @app.get("/health")
 def health():
